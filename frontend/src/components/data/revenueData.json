@@ -1,0 +1,37 @@
+[
+    {
+        "label": "January",
+        "revenue": 12000,
+        "cost": 8000
+    },
+    {
+        "label": "February",
+        "revenue": 19000,
+        "cost": 12000
+    },
+    {
+        "label": "March",
+        "revenue": 3000,
+        "cost": 2000
+    },
+    {
+        "label": "April",
+        "revenue": 5000,
+        "cost": 3000
+    },
+    {
+        "label": "May",
+        "revenue": 20000,
+        "cost": 15000
+    },
+    {
+        "label": "June",
+        "revenue": 30000,
+        "cost": 25000
+    },
+    {
+        "label": "July",
+        "revenue": 45000,
+        "cost": 40000
+    }
+]

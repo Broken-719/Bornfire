@@ -1,0 +1,135 @@
+body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.orders {
+    margin-left: 200px;
+}
+
+/* Header */
+
+.orders-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 80px 1018px;
+    background-color: #6200ee;
+    border-bottom: 1px solid #ddd;
+}
+
+.orders-header h1 {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    margin: 0;
+    font-size: 35px;
+    color: #fff;
+}
+
+.orders-header p {
+    position: absolute;
+    left: 40px;
+    color: #fff;
+    top: 50px;
+    font-size: 13px;
+}
+
+.filter-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.filter-dropdown {
+    position: absolute;
+    right: -80px;
+    top: calc(100% + 8px);
+    background: #fff;
+    color: #222;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    list-style: none;
+    padding: 6px 0;
+    margin: 0;
+    min-width: 100px;
+    z-index: 50;
+    border: 1px solid rgba(0,0,0,0.06);
+}
+
+.filter-dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    transition: background 0.5s;
+}
+
+.filter-dropdown li:hover {
+    background: #f3f3f3;
+}
+
+.success { 
+  color: #00ff15; 
+  padding: 6px 8px; 
+  border-radius: 4px; 
+  text-align: center; 
+}
+
+.success:hover {
+  background-color: #e0ffe3;
+  color: #00ca11;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.warning { 
+  color: #ffbf00; 
+  padding: 6px 8px; 
+  border-radius: 4px; 
+  text-align: center; 
+}
+
+.warning:hover {
+  background-color: #fff4e5;
+  color: #c08d00;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.danger { 
+  color: #ff0019; 
+  padding: 6px 8px; 
+  border-radius: 4px; 
+  text-align: center; 
+}
+
+.danger:hover {
+  background-color: #ffe5e8;
+  color: #c00013;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.table-1 {
+  width: 85%;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-1 th, .table-1 td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+

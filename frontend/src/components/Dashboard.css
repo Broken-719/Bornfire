@@ -1,0 +1,292 @@
+body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dashboard {
+    margin-left: 200px;
+}
+
+/* Header */
+
+.dashboard-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #6200ee;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-header h1 {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    margin: 0;
+    font-size: 35px;
+    color: #fff;
+}
+
+.dashboard-header p {
+    position: absolute;
+    left: 40px;
+    color: #fff;
+    top: 50px;
+    font-size: 13px;
+}
+
+.dashboard-header .btn-1 {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    padding: 10px 20px;
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dashboard-header .btn-1:hover {
+    background-color: #3700b3;
+}
+
+/* Status Cards */
+
+.status-cards {
+    margin: 20px 10px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #6200ee55;
+    box-shadow: 2px 4px 10px #6200ee55;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.status-cards .card-1 {
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+    padding: 40px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.status-cards .card-1:hover {
+    border: 1px solid #6200ee55;
+    box-shadow: 0 4px 10px #6200ee55;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.status-cards .card-1 h3 {
+    position: absolute;
+    top: 3px;
+    left: 40px;
+    margin: 10px 0;
+    font-size: 17px;
+    color: #000;
+}
+
+.status-cards .card-1 p {
+    position: absolute;
+    top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6200ee;
+}
+
+.status-cards .card-1 ion-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    color: #6200ee;
+}
+
+/* Charts Section */
+
+.charts {
+    margin: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.revenue-chart, .sales-chart {
+    background-color: #fff;
+    border: 1px solid #6200ee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 5px 30px 5px;
+}
+
+.revenue-chart:hover {
+    box-shadow: 5px 5px 10px #6200ee55;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sales-chart:hover {
+    box-shadow: 5px 5px 10px #6200ee55;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.revenue-chart {
+    flex: 2;
+}
+
+.revenue-chart h3, .sales-chart h3 {
+    text-align: left;
+    color: #6200ee;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.sales-chart {
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* Recent Orders  */
+
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;;
+    gap: 15px;
+}
+
+.recent-orders {
+    margin: 20px 20px 20px 0;
+    padding: 30px 30px 20px 30px;
+    background-color: #fff;
+    border: 1px solid #6200ee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.recent-orders:hover {
+    box-shadow: 5px 5px 10px #6200ee55;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.recent-orders h3 {
+    color: #6200ee;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.recent-orders {
+    flex: 2;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.table-header h3 {
+    color: #6200ee;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.table-header .btn-2 {
+    text-decoration: none;
+    padding: 8px 15px 8px 15px;
+    color: red;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.table-header .btn-2:hover {
+    background-color: #f8d7da;
+    color: #a12632;
+    border-radius: 5px;
+}
+
+.cell {
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    color: #333;
+}
+
+.top-products {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.top-products {
+    margin: 20px 0 20px 0;
+    padding: 30px 30px 50px 30px;
+    background-color: #fff;
+    border: 1px solid #6200ee;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.top-products:hover {
+    box-shadow: 5px 5px 10px #6200ee55;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.top-products h3 {
+    color: #6200ee;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.top-product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.top-product-list .product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-product-list .product img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.top-product-list .product .product-info p {
+    margin: 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.top-product-list .product .product-info .info {
+    color: #6200ee;
+    font-weight: bold;
+}   
+
+
+
+
+
+
