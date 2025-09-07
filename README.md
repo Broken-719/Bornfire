@@ -1,2 +1,2 @@
 # Bornfire
-Product Msnagement App
+Product Management App
